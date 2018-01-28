@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.0.8",
+  "iOS" : [
+    {
+      "name" : "ZLSwipeableViewSwift",
+      "hash" : "7c63eac0c0c4203cfd5422c654f85345ad1385db8a3dced82e3b4836b23263a8"
+    }
+  ]
+}
