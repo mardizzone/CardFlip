@@ -14,6 +14,10 @@
 		7F082A03201D9EBA008719EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F082A01201D9EBA008719EC /* LaunchScreen.storyboard */; };
 		7F082A0B201DC6E0008719EC /* ZLSwipeableViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F082A0A201DC6E0008719EC /* ZLSwipeableViewSwift.framework */; };
 		7F082A0D201DC7D7008719EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082A0C201DC7D7008719EC /* CardView.swift */; };
+		7F082A15201E8D1E008719EC /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F082A14201E8D1E008719EC /* ProfileView.xib */; };
+		7F082A17201E9B7F008719EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082A16201E9B7F008719EC /* Model.swift */; };
+		7F082A19201E9B9D008719EC /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F082A18201E9B9D008719EC /* team.json */; };
+		7F082A1B201E9DF7008719EC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082A1A201E9DF7008719EC /* ProfileView.swift */; };
 		948AFA6B47AB53B0BC65FD95 /* Pods_CFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B5BA2B5E4852D53169BAB0 /* Pods_CFB.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,10 @@
 		7F082A0A201DC6E0008719EC /* ZLSwipeableViewSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZLSwipeableViewSwift.framework; path = Carthage/Build/iOS/ZLSwipeableViewSwift.framework; sourceTree = "<group>"; };
 		7F082A0C201DC7D7008719EC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7F082A0E201DC856008719EC /* ZLSwipeableViewSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ZLSwipeableViewSwift.framework.dSYM; path = Carthage/Build/iOS/ZLSwipeableViewSwift.framework.dSYM; sourceTree = "<group>"; };
+		7F082A14201E8D1E008719EC /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		7F082A16201E9B7F008719EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7F082A18201E9B9D008719EC /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
+		7F082A1A201E9DF7008719EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		94DED5FCF04A0A38206B8A76 /* Pods-CFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFB.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFB/Pods-CFB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +76,8 @@
 		7F0829EC201D9EBA008719EC = {
 			isa = PBXGroup;
 			children = (
+				7F082A16201E9B7F008719EC /* Model.swift */,
+				7F082A18201E9B9D008719EC /* team.json */,
 				7F0829F7201D9EBA008719EC /* CFB */,
 				7F0829F6201D9EBA008719EC /* Products */,
 				0FA5DD123CD5ADC2720B2676 /* Pods */,
@@ -86,6 +96,7 @@
 		7F0829F7201D9EBA008719EC /* CFB */ = {
 			isa = PBXGroup;
 			children = (
+				7F082A11201E8C8E008719EC /* View */,
 				7F0829F8201D9EBA008719EC /* AppDelegate.swift */,
 				7F0829FA201D9EBA008719EC /* ViewController.swift */,
 				7F0829FC201D9EBA008719EC /* Main.storyboard */,
@@ -95,6 +106,15 @@
 				7F082A0C201DC7D7008719EC /* CardView.swift */,
 			);
 			path = CFB;
+			sourceTree = "<group>";
+		};
+		7F082A11201E8C8E008719EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F082A14201E8D1E008719EC /* ProfileView.xib */,
+				7F082A1A201E9DF7008719EC /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F082A15201E8D1E008719EC /* ProfileView.xib in Resources */,
 				7F082A03201D9EBA008719EC /* LaunchScreen.storyboard in Resources */,
+				7F082A19201E9B9D008719EC /* team.json in Resources */,
 				7F082A00201D9EBA008719EC /* Assets.xcassets in Resources */,
 				7F0829FE201D9EBA008719EC /* Main.storyboard in Resources */,
 			);
@@ -237,7 +259,9 @@
 			files = (
 				7F0829FB201D9EBA008719EC /* ViewController.swift in Sources */,
 				7F082A0D201DC7D7008719EC /* CardView.swift in Sources */,
+				7F082A1B201E9DF7008719EC /* ProfileView.swift in Sources */,
 				7F0829F9201D9EBA008719EC /* AppDelegate.swift in Sources */,
+				7F082A17201E9B7F008719EC /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

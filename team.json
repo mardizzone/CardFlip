@@ -1,0 +1,101 @@
+[
+  {
+    "id": "0",
+    "name": "Ben Easton",
+    "position": "iOS Engineer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/d4/67/d4670ffa4ed318affdca8c8452db892d.jpg",
+    "personality": "with a strong British 🇬🇧 accent! I still use a lot of British phrases, like 'would you like a cup of tea?' and 'just popping to the loo!'",
+    "interests": "Hiking in nature, meditating, Krav Maga, avocados 🥑, helping people overcome chronic illnesses ⛑, performing standup comedy and making people laugh",
+    "dating_preferences": "is up for doing different and unique things, likes to laugh 😂"
+  },
+  {
+    "id": "1",
+    "name": "Aldrin Balisi",
+    "position": "iOS Engineer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/c6/46/c6461970732d1b9c1ccbcafc66fa7340.jpg",
+    "personality": "featured on the CMB Instagram page, Canadian 🇨🇦, and a Raptors fan!",
+    "interests": "playing volleyball, sneakers, photography, weightlifting, basketball",
+    "dating_preferences": "likes to play volleyball, likes to try new things, enjoys cooking and eating"
+  },
+  {
+    "id": "2",
+    "name": "Jim Matteson",
+    "position": "iOS Team Lead",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/ed/8a/ed8a80fcd4cb258293d3570e5156738c.jpg",
+    "personality": "to tall to sit comfortably on airplanes",
+    "interests": "improving your CMB experience",
+    "dating_preferences": "laughs so hard she gigglesnorts"
+  },
+  {
+    "id": "3",
+    "name": "Yi Li",
+    "position": "iOS Test Engineer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/cd/a6/cda64d65d8d5c8dd0543149d3f19fb8f.jpg",
+    "personality": "open minded, shy at first",
+    "interests": "traveling, Korean BBQ",
+    "dating_preferences": "nice, get along well with my friends"
+  },
+  {
+    "id": "4",
+    "name": "Arum Kang",
+    "position": "Co-CEO",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/33/e1/33e1ebc313cf054612b22f55dfc9215e.jpg",
+    "personality": "always smiling (almost always), NOT single, but love connecting with CMB members!",
+    "interests": "working intensely last-minute, hosting and organizing parties---sometimes it's stressful but I still enjoy it!, leaving my Sunday open for something spontaneous",
+    "dating_preferences": "enjoys similar corny movies with me (e.g. Anchorman!), Doesn't mind laughing at himself, Is considerate"
+  },
+  {
+    "id": "5",
+    "name": "Dawoon Kang",
+    "position": "Co-CEO",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/eb/99/eb996ac1f33ac0321641ee008e6b4909.jpg",
+    "personality": "in pursuit of my personal legend and search of wonder, told I’m a rare bird :)",
+    "interests": "to experience, see the world, smile and say hi!",
+    "dating_preferences": "curious, values gratitude and humility, aspires to be a contribution to the world"
+  },
+  {
+    "id": "6",
+    "name": "Melissa Rosen",
+    "position": "Customer Experience Manager",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/23/02/2302a45a5947a5f8c26a540b92fc6084.jpg",
+    "personality": "a big fan of Trader Joe's frozen mac & cheese, an old New York Jew at my core",
+    "interests": "watching cartoons and reality TV, walking around, mainly because I can't drive, and soup. I really really really like soup.",
+    "dating_preferences": "likes bulldogs, is a cool cat, roots for the Yankees"
+  },
+  {
+    "id": "7a",
+    "name": "Alice Hwang",
+    "position": "Marketing Analyst",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/bc/e2/bce20ed95509459c302c57c9bca94ec6.jpg",
+    "personality": "always up for an adventure, constantly picking up new hobbies",
+    "interests": "competitive games, hot sauce on everything, dogs wearing sweaters",
+    "dating_preferences": "wears cool socks, recommends a good book/podcast, challenges my views"
+  },
+  {
+    "id": "8",
+    "name": "Audrie Thompson",
+    "position": "Marketing Designer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/1f/70/1f7065c92386b33ceffe15326d408915.jpg",
+    "personality": "a coffee lover, perpetually in search of fun shows to go to 🎶, a fan of good food paired with even better drinks",
+    "interests": "traveling to new and unexpected places, lazy weekends spent in good company, lakeside picnics",
+    "dating_preferences": "is funny (tell me all the jokes), can tolerate my poor sense of humor, likes sharing his interests with me"
+  },
+  {
+    "id": "9",
+    "name": "Daniel Pyrathon",
+    "position": "Data Science Engineer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/e9/ff/e9ff8ab1a5e32275bb777bea5d5dbba7.jpg",
+    "personality": "Italian: born in Rome, lived all over the world, now in SF, passionate and always living life to the fullest. be it work, a relationship, or life in general!",
+    "interests": "being active: cycling, running, especially dancing!, travelling: i love to explore and I don't need to be comfortable doing it, getting out of my comfort zone.",
+    "dating_preferences": "likes languages, asks questions about my life, has something to teach me, is extroverted and loves life in general"
+  },
+  {
+    "id": "10",
+    "name": "Łukasz Citowicz",
+    "position": "Android Test Engineer",
+    "profile_image": "https://d1ghufavkue0e7.cloudfront.net/cache/12/04/1204c6aa056a3111503c272b49ca5033.jpg",
+    "personality": "against littering and excessive usage of plastic, Good at finding hidden gems for getaways in my local region",
+    "interests": "dark music and bad music, learning a new language as a form of procrastination, wading birds",
+    "dating_preferences": "Has survived an earthquake, Enjoys sharing with others, Pulls out a surprise chocolate bar when my sweet tooth activates"
+  }
+]
