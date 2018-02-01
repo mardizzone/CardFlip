@@ -17,21 +17,56 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23P-um-ba1">
-                    <rect key="frame" x="16" y="72" width="323" height="81.5"/>
+                    <rect key="frame" x="16" y="29" width="323" height="81.5"/>
                     <string key="text">with a strong British 🇬🇧 accent! I still use a lot of British phrases, like 'would you like a cup of tea?' and 'just popping to the loo!'</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bf-yj-jle">
-                    <rect key="frame" x="16" y="169.5" width="323" height="81.5"/>
+                    <rect key="frame" x="16" y="146" width="323" height="81.5"/>
                     <string key="text">Hiking in nature, meditating, Krav Maga, avocados 🥑, helping people overcome chronic illnesses ⛑, performing standup comedy and making people laugh</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQQ-pf-hgP">
+                    <rect key="frame" x="16" y="2" width="98.5" height="26"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Personality">
+                            <attributes>
+                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSA-fm-hLn">
+                    <rect key="frame" x="16" y="119" width="74" height="26"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Interests">
+                            <attributes>
+                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Eu-cW-WQ0">
+                    <rect key="frame" x="16" y="236" width="105" height="26"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Preferences">
+                            <attributes>
+                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is up for doing different and unique things, likes to laugh 😂" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofz-bd-vf4">
-                    <rect key="frame" x="16" y="305" width="323" height="41"/>
+                    <rect key="frame" x="16" y="262.5" width="323" height="41"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -39,15 +74,21 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="3bf-yj-jle" firstAttribute="top" secondItem="23P-um-ba1" secondAttribute="bottom" constant="16" id="IDy-H6-rBh"/>
+                <constraint firstItem="Ofz-bd-vf4" firstAttribute="top" secondItem="9Eu-cW-WQ0" secondAttribute="bottom" constant="1" id="2QF-e1-dnD"/>
+                <constraint firstItem="23P-um-ba1" firstAttribute="top" secondItem="bQQ-pf-hgP" secondAttribute="bottom" constant="1" id="49g-oh-ANL"/>
+                <constraint firstItem="WSA-fm-hLn" firstAttribute="top" secondItem="23P-um-ba1" secondAttribute="bottom" constant="8.5" id="9SD-I6-hNQ"/>
+                <constraint firstItem="9Eu-cW-WQ0" firstAttribute="top" secondItem="3bf-yj-jle" secondAttribute="bottom" constant="8.5" id="G7J-ff-2hL"/>
                 <constraint firstItem="3bf-yj-jle" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="LbD-8i-UIP"/>
                 <constraint firstItem="23P-um-ba1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="NR6-4G-TZJ"/>
-                <constraint firstAttribute="trailing" secondItem="Ofz-bd-vf4" secondAttribute="trailing" constant="16" id="YNH-XW-bcr"/>
+                <constraint firstItem="Ofz-bd-vf4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="QQY-O2-g6K"/>
+                <constraint firstItem="9Eu-cW-WQ0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Ufe-Bm-mrC"/>
+                <constraint firstItem="WSA-fm-hLn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="cGS-zT-YNa"/>
                 <constraint firstAttribute="trailing" secondItem="3bf-yj-jle" secondAttribute="trailing" constant="16" id="cuw-Yh-A8M"/>
+                <constraint firstItem="3bf-yj-jle" firstAttribute="top" secondItem="WSA-fm-hLn" secondAttribute="bottom" constant="1" id="eAG-tw-fp2"/>
                 <constraint firstAttribute="trailing" secondItem="23P-um-ba1" secondAttribute="trailing" constant="16" id="fDU-tw-iEY"/>
-                <constraint firstItem="Ofz-bd-vf4" firstAttribute="top" secondItem="3bf-yj-jle" secondAttribute="bottom" constant="54" id="qjP-nj-f5m"/>
-                <constraint firstItem="Ofz-bd-vf4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="sgs-tw-KDw"/>
-                <constraint firstItem="23P-um-ba1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="72" id="vgl-7l-x4n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ofz-bd-vf4" secondAttribute="trailing" constant="16" id="lh8-Ev-IfN"/>
+                <constraint firstItem="bQQ-pf-hgP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="mua-bK-5dD"/>
+                <constraint firstItem="bQQ-pf-hgP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="zkQ-dl-Utw"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
