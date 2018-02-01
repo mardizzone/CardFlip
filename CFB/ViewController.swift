@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import UIColor_FlatColors
 import ZLSwipeableViewSwift
 import Cartography
 import Nuke
