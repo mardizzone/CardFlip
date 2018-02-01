@@ -18,6 +18,9 @@
 		7F082A17201E9B7F008719EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082A16201E9B7F008719EC /* Model.swift */; };
 		7F082A19201E9B9D008719EC /* team.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F082A18201E9B9D008719EC /* team.json */; };
 		7F082A1B201E9DF7008719EC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082A1A201E9DF7008719EC /* ProfileView.swift */; };
+		7FD0467B202176270023FA6B /* BackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0467A202176270023FA6B /* BackView.xib */; };
+		7FD0467D20217A520023FA6B /* BackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0467C20217A520023FA6B /* BackCardView.swift */; };
+		7FD0467F20217E880023FA6B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0467E20217E880023FA6B /* File.swift */; };
 		948AFA6B47AB53B0BC65FD95 /* Pods_CFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B5BA2B5E4852D53169BAB0 /* Pods_CFB.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		7F082A16201E9B7F008719EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		7F082A18201E9B9D008719EC /* team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = team.json; sourceTree = "<group>"; };
 		7F082A1A201E9DF7008719EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7FD0467A202176270023FA6B /* BackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackView.xib; sourceTree = "<group>"; };
+		7FD0467C20217A520023FA6B /* BackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCardView.swift; sourceTree = "<group>"; };
+		7FD0467E20217E880023FA6B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		94DED5FCF04A0A38206B8A76 /* Pods-CFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFB.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFB/Pods-CFB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +110,7 @@
 				7F082A01201D9EBA008719EC /* LaunchScreen.storyboard */,
 				7F082A04201D9EBA008719EC /* Info.plist */,
 				7F082A0C201DC7D7008719EC /* CardView.swift */,
+				7FD0467E20217E880023FA6B /* File.swift */,
 			);
 			path = CFB;
 			sourceTree = "<group>";
@@ -111,10 +118,20 @@
 		7F082A11201E8C8E008719EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7FD04679202175DB0023FA6B /* BackOfCard */,
 				7F082A14201E8D1E008719EC /* ProfileView.xib */,
 				7F082A1A201E9DF7008719EC /* ProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7FD04679202175DB0023FA6B /* BackOfCard */ = {
+			isa = PBXGroup;
+			children = (
+				7FD0467A202176270023FA6B /* BackView.xib */,
+				7FD0467C20217A520023FA6B /* BackCardView.swift */,
+			);
+			path = BackOfCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F082A15201E8D1E008719EC /* ProfileView.xib in Resources */,
+				7FD0467B202176270023FA6B /* BackView.xib in Resources */,
 				7F082A03201D9EBA008719EC /* LaunchScreen.storyboard in Resources */,
 				7F082A19201E9B9D008719EC /* team.json in Resources */,
 				7F082A00201D9EBA008719EC /* Assets.xcassets in Resources */,
@@ -258,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0829FB201D9EBA008719EC /* ViewController.swift in Sources */,
+				7FD0467D20217A520023FA6B /* BackCardView.swift in Sources */,
+				7FD0467F20217E880023FA6B /* File.swift in Sources */,
 				7F082A0D201DC7D7008719EC /* CardView.swift in Sources */,
 				7F082A1B201E9DF7008719EC /* ProfileView.swift in Sources */,
 				7F0829F9201D9EBA008719EC /* AppDelegate.swift in Sources */,
