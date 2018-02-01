@@ -31,3 +31,13 @@ func loadJson(filename fileName: String) -> [Person]? {
     }
     return nil
 }
+
+func modelToDictionary(input: [Person]) -> [String : [String : String]] {
+    var dictToReturn = [String : [String : String] ]()
+    
+    for item in input {
+        dictToReturn[item.name] = [ "personality" : item.personality, "interests" : item.interests, "datingPrefs" : item.dating_preferences ]
+    }
+    
+    return dictToReturn
+}
