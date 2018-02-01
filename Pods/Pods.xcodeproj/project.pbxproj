@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012BD1BDAA840DF0F61D9D43363DB4F2 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE989894847162A8376E505223EA038A /* Loader.swift */; };
+		033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E7E3A08D70903F15549F92F91AF047 /* LayoutProxy+TypeErasure.swift */; };
+		0651BB681660188DC86A68D105F0D9ED /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086F222B2A0176223682FC0CEDE1BB2 /* UIColor+FlatColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA96A9D2EFD650D586428835B9B5B2C /* Constrain.swift */; };
+		078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45482EAB70F657D2380317625596902 /* Distribute.swift */; };
+		1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5B595DEE1D63A8ACBB55D4799A3C /* Cartography-dummy.m */; };
+		1F9C7F0EA8A1BFFEF397BC6B2A939B22 /* UIColor+FlatColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 100602105C82D3D242803DF8F9B24DFE /* UIColor+FlatColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C20FA555D36F6248CCC0DECDEBF3E2 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253CD413EF8A80C6EF07F9BBD68CC051 /* Nuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475AE9F36BF3AA7A4EC97E77AE2DA36 /* Nuke.swift */; };
+		26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC088BECB94405173C6DEAB55EF7C743 /* Size.swift */; };
+		27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F9E9B4643E0F6A47E82829A71B7145 /* LayoutGuideProxy.swift */; };
+		2F3D7D7ED5B3912D00DA01891BC50DA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43983995B7BEF0BF30BBD068CB514E1 /* Coefficients.swift */; };
+		370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D0069CDDBD647B5AF861A36E696E5 /* Property.swift */; };
+		3CFAD5358DA51354DDB900075FEEF062 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB4883BF9EB01D1A93FCCEA1DEC34 /* Request.swift */; };
+		44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EAE756D8D6A1543F3F68F21E27A344 /* Point.swift */; };
+		4D3B86571236307E685246AF30674404 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD7287E79EBA4993EE66444FAADEE7 /* Internal.swift */; };
+		52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D96775B3041DDBD6109822222046C22 /* ViewProxy.swift */; };
+		551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36446ACA361D17B752CDF7DF35779D6B /* ConstraintGroup.swift */; };
+		58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786C2DDD28E9EE2D0288EAED37DA4E9D /* Align.swift */; };
+		6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E215462D7198C50CA20B2647D6E1EE /* LayoutProxy.swift */; };
+		64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA45CA14110DC8CC9B9F8F329B80F8 /* LayoutGuide.swift */; };
+		65D9D96AAD8883BCDF093E46E8CBD666 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4880127C90069BB98F445EC8E6406 /* Cache.swift */; };
+		66EB1E66385876B50FE808616D05B8D5 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6C63DD1279B084FD9E137FFDA015E /* Processor.swift */; };
+		6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E7371C8CBD73E96F411759CE33501D /* Context.swift */; };
+		75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBAE7354EF1CF8C5F2FB3E766C3F7AC /* Edges.swift */; };
+		7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720069E0DD26006EFE4E9D6DC3AD6F34 /* View.swift */; };
+		869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F1B985264A3D35CF54BF8D7F406035 /* AutoresizingMaskLayoutProxy.swift */; };
+		94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B4B84E96850DFE2853B33CA18DBB8 /* Edge.swift */; };
+		9501B6ED13F8795DEE0FC0150F0B7BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9C2B1059B304AB5CCCBF0010E0E9846C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE165FE781FC660496DC11F36E277B6 /* Expression.swift */; };
+		9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D9F77E02AD98D3C187FA0B3F9CE1 /* LayoutSupport.swift */; };
+		ACB65A37A114C1596590335552BA1740 /* Pods-CFB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34488BFF5A619C84A053B9D98B70CFC1 /* Pods-CFB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49543F235F4BEDD36A0A789F079AF52 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7F2A5B68D2E165C2402A4B5B37713 /* Manager.swift */; };
+		B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306C29E73B472819EA7ED138F6DF634 /* Dimension.swift */; };
+		BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0AC714D013D62D627888FFF61D999 /* LayoutItem.swift */; };
+		BB0F76670E8F70F44F27ECD0CCFB017B /* CancellationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0DDCDFCD0408FE914A38E1E86D7279 /* CancellationToken.swift */; };
+		BC8A7F3183EE634556A828F8484121EE /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0DA30FC09DE8A79EDEF3907296CF4 /* DataDecoder.swift */; };
+		C3420193C65CFD85CD659C209EC2F535 /* UIColor+FlatColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B3BE1761458930CE8149141F9EB74 /* UIColor+FlatColors-dummy.m */; };
+		DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C778422E456EB56C1119F33F65878F3A /* Compound.swift */; };
+		DE0651A2FBC5044AF06FB614BE52C03A /* UIColor+FlatColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 17317B228C5F656CB251EE7A71D595A7 /* UIColor+FlatColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B0ADA402E51F16EFD6DC03E4156EE /* Extensions.swift */; };
+		E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7C2C6581D61CB7E45140B3FDB39375 /* LayoutSupportProxy.swift */; };
+		EA94F344530DED6B3C4EB9EE3F6814CF /* Pods-CFB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0202B53689D9FF4D622C2FC8031CFCC5 /* Pods-CFB-dummy.m */; };
+		EB364D0D1EEA011ACBEA69D11A18EAFC /* Nuke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED75BCDBE7185AA5825B1712A38AA3 /* Nuke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF4410D8720AAA7E905A4CA4DAE005AA /* Preheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A92209B284132C5C43F43162E9266 /* Preheater.swift */; };
+		F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E817B5281C83E394C4D07FE59E0C95 /* Priority.swift */; };
+		F2C4D00A1F2F2BF5403B2F1632BFD1BA /* Nuke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C87363EEF3397497F4B6FE38AD61310F /* Nuke-dummy.m */; };
+		F38A6FFE6722E8368DF2A6242268DA59 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB92F30DD372E9503553298DFCD6E /* DataLoader.swift */; };
+		F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3654F396AED178040E42178A8A19766 /* Constraint.swift */; };
+		F812EDAED3EABF8C1235C99A134C490A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F094863D03FF6B8F738CD2152BEE133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5E6B6BF53C2C31E616E4C5644E8BB;
+			remoteInfo = Cartography;
+		};
+		A905E7CE5574D2A0E54E30B7422E7449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C43022B5ABCAC4A05992565A4CF24B;
+			remoteInfo = "UIColor+FlatColors";
+		};
+		CB8544CCE71B5D1FA85604B3A35DBEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB416A6476448A47C74341EF3FFB686;
+			remoteInfo = Nuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007842AA2EE9493B2BEED65CBCF0C397 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0202B53689D9FF4D622C2FC8031CFCC5 /* Pods-CFB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFB-dummy.m"; sourceTree = "<group>"; };
+		09E7E3A08D70903F15549F92F91AF047 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		100602105C82D3D242803DF8F9B24DFE /* UIColor+FlatColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors-umbrella.h"; sourceTree = "<group>"; };
+		113E7C686A6CF2753650AF5BDF51FA59 /* UIColor+FlatColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+FlatColors.xcconfig"; sourceTree = "<group>"; };
+		1306C29E73B472819EA7ED138F6DF634 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		17317B228C5F656CB251EE7A71D595A7 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatColors.h"; path = "UIColor+FlatColors/UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		19AFB92F30DD372E9503553298DFCD6E /* DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataLoader.swift; path = Sources/DataLoader.swift; sourceTree = "<group>"; };
+		1B05AD4A43BB489483DDE0A9419EBC99 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		1BA7EE7B8C943EC63B41BF3BB9472C4E /* Pods-CFB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFB-frameworks.sh"; sourceTree = "<group>"; };
+		1BF71A7215F08BF1EB12A01B8A6506E9 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A4880127C90069BB98F445EC8E6406 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Sources/Cache.swift; sourceTree = "<group>"; };
+		2F6EBEE7CD5DBF7B3F76BE32EF0D5F9B /* Pods-CFB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFB-resources.sh"; sourceTree = "<group>"; };
+		31F1B985264A3D35CF54BF8D7F406035 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
+		34488BFF5A619C84A053B9D98B70CFC1 /* Pods-CFB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFB-umbrella.h"; sourceTree = "<group>"; };
+		36446ACA361D17B752CDF7DF35779D6B /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		39AA45CA14110DC8CC9B9F8F329B80F8 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
+		3D5C01E7C32EBD4B0C486E3DB9E6DC7B /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cartography.modulemap; sourceTree = "<group>"; };
+		3D96775B3041DDBD6109822222046C22 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		3EB0DA30FC09DE8A79EDEF3907296CF4 /* DataDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataDecoder.swift; path = Sources/DataDecoder.swift; sourceTree = "<group>"; };
+		3FA96A9D2EFD650D586428835B9B5B2C /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		40DDB4883BF9EB01D1A93FCCEA1DEC34 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Sources/Request.swift; sourceTree = "<group>"; };
+		48E3B86877AB4A0F95544C2AAF9FAC00 /* Pods-CFB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		496B4B84E96850DFE2853B33CA18DBB8 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		551A92209B284132C5C43F43162E9266 /* Preheater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Preheater.swift; path = Sources/Preheater.swift; sourceTree = "<group>"; };
+		5642946D118B1081F3D069CE983B40CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6B0ADA402E51F16EFD6DC03E4156EE /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		5EE7F2A5B68D2E165C2402A4B5B37713 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Sources/Manager.swift; sourceTree = "<group>"; };
+		68EB5B595DEE1D63A8ACBB55D4799A3C /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		6BBAE7354EF1CF8C5F2FB3E766C3F7AC /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		6CCA4BB4AE28545CB3C767BE49C7D45F /* Nuke-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-prefix.pch"; sourceTree = "<group>"; };
+		6DFDA62CBAA846DB36E4BCF9F15BC7ED /* Pods-CFB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFB-acknowledgements.plist"; sourceTree = "<group>"; };
+		720069E0DD26006EFE4E9D6DC3AD6F34 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		786C2DDD28E9EE2D0288EAED37DA4E9D /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		78FC98B1D6ADB981142FB60EB6D7810D /* Nuke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Nuke.modulemap; sourceTree = "<group>"; };
+		79E817B5281C83E394C4D07FE59E0C95 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		7B6134FC6C17E250B47A8F2FAB68982F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6B3BE1761458930CE8149141F9EB74 /* UIColor+FlatColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors-dummy.m"; sourceTree = "<group>"; };
+		8475AE9F36BF3AA7A4EC97E77AE2DA36 /* Nuke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nuke.swift; path = Sources/Nuke.swift; sourceTree = "<group>"; };
+		86A0AC714D013D62D627888FFF61D999 /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
+		86ED75BCDBE7185AA5825B1712A38AA3 /* Nuke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-umbrella.h"; sourceTree = "<group>"; };
+		8DE165FE781FC660496DC11F36E277B6 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		9086F222B2A0176223682FC0CEDE1BB2 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatColors.m"; path = "UIColor+FlatColors/UIColor+FlatColors.m"; sourceTree = "<group>"; };
+		90E215462D7198C50CA20B2647D6E1EE /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C20FA555D36F6248CCC0DECDEBF3E2 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		9792388AF47AC10B59E08BA1991052FF /* UIColor+FlatColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIColor+FlatColors.modulemap"; sourceTree = "<group>"; };
+		9CB0FF85AC54C6B523BBD8BA380509D6 /* UIColor_FlatColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_FlatColors.framework; path = "UIColor+FlatColors.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E7371C8CBD73E96F411759CE33501D /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		A3654F396AED178040E42178A8A19766 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		A5A2D9F77E02AD98D3C187FA0B3F9CE1 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		B4A29A3EAE7C7A68F3722ABEDDDA6017 /* Pods_CFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFB.framework; path = "Pods-CFB.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0D8B268455F4354B6DDE4473D6AC94 /* Pods-CFB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFB.debug.xcconfig"; sourceTree = "<group>"; };
+		C778422E456EB56C1119F33F65878F3A /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		C7C52ED95EBE8BD245817C6485A0D7C9 /* Pods-CFB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CFB.modulemap"; sourceTree = "<group>"; };
+		C87363EEF3397497F4B6FE38AD61310F /* Nuke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nuke-dummy.m"; sourceTree = "<group>"; };
+		C8EAE756D8D6A1543F3F68F21E27A344 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		CA0DDCDFCD0408FE914A38E1E86D7279 /* CancellationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CancellationToken.swift; path = Sources/CancellationToken.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD7C2C6581D61CB7E45140B3FDB39375 /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+		CF70F19E4CAE48C17B4F001E22EC0623 /* UIColor+FlatColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors-prefix.pch"; sourceTree = "<group>"; };
+		D43983995B7BEF0BF30BBD068CB514E1 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		D59D0069CDDBD647B5AF861A36E696E5 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		D5DA380481FD6E099ED8C2982BF6EFDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB695CF83BC1FFB16AD1E13304775C93 /* Nuke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nuke.xcconfig; sourceTree = "<group>"; };
+		DFFD7287E79EBA4993EE66444FAADEE7 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/Internal.swift; sourceTree = "<group>"; };
+		E7F9E9B4643E0F6A47E82829A71B7145 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
+		E94C158487395BD474F50EA3AB037FA1 /* Pods-CFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFB.release.xcconfig"; sourceTree = "<group>"; };
+		EC088BECB94405173C6DEAB55EF7C743 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		F45482EAB70F657D2380317625596902 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		FE48EF6C48AC20CBBF80A205E68E5FCC /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		FE989894847162A8376E505223EA038A /* Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = Sources/Loader.swift; sourceTree = "<group>"; };
+		FFD88BA5881B1ABC1E31FBED6E68452B /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nuke.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF6C63DD1279B084FD9E137FFDA015E /* Processor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Processor.swift; path = Sources/Processor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013A836CE9707723E803CED17A681477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3D7D7ED5B3912D00DA01891BC50DA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F11910B4682C55BD5811F333E55F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2B1059B304AB5CCCBF0010E0E9846C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAE566164063D9A7C119C045CF8B951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F812EDAED3EABF8C1235C99A134C490A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AE480CA16FCACF2C9B8EB1A519DBD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9501B6ED13F8795DEE0FC0150F0B7BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0350904BC7844669F27F370A497A5410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF722B9E6835E5312230772963CB8C56 /* Cartography */,
+				34740CB82183FFA56E164555F85BB49B /* Nuke */,
+				1162256FC28A2A1D41EA0AE7F468E3EF /* UIColor+FlatColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1162256FC28A2A1D41EA0AE7F468E3EF /* UIColor+FlatColors */ = {
+			isa = PBXGroup;
+			children = (
+				17317B228C5F656CB251EE7A71D595A7 /* UIColor+FlatColors.h */,
+				9086F222B2A0176223682FC0CEDE1BB2 /* UIColor+FlatColors.m */,
+				12BBCBC3CD8A8BF4F13353279EF7E538 /* Support Files */,
+			);
+			name = "UIColor+FlatColors";
+			path = "UIColor+FlatColors";
+			sourceTree = "<group>";
+		};
+		12BBCBC3CD8A8BF4F13353279EF7E538 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5642946D118B1081F3D069CE983B40CD /* Info.plist */,
+				9792388AF47AC10B59E08BA1991052FF /* UIColor+FlatColors.modulemap */,
+				113E7C686A6CF2753650AF5BDF51FA59 /* UIColor+FlatColors.xcconfig */,
+				7E6B3BE1761458930CE8149141F9EB74 /* UIColor+FlatColors-dummy.m */,
+				CF70F19E4CAE48C17B4F001E22EC0623 /* UIColor+FlatColors-prefix.pch */,
+				100602105C82D3D242803DF8F9B24DFE /* UIColor+FlatColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor+FlatColors";
+			sourceTree = "<group>";
+		};
+		1B95B6F0253EA220415410E1CF95EFFF /* Pods-CFB */ = {
+			isa = PBXGroup;
+			children = (
+				7B6134FC6C17E250B47A8F2FAB68982F /* Info.plist */,
+				C7C52ED95EBE8BD245817C6485A0D7C9 /* Pods-CFB.modulemap */,
+				48E3B86877AB4A0F95544C2AAF9FAC00 /* Pods-CFB-acknowledgements.markdown */,
+				6DFDA62CBAA846DB36E4BCF9F15BC7ED /* Pods-CFB-acknowledgements.plist */,
+				0202B53689D9FF4D622C2FC8031CFCC5 /* Pods-CFB-dummy.m */,
+				1BA7EE7B8C943EC63B41BF3BB9472C4E /* Pods-CFB-frameworks.sh */,
+				2F6EBEE7CD5DBF7B3F76BE32EF0D5F9B /* Pods-CFB-resources.sh */,
+				34488BFF5A619C84A053B9D98B70CFC1 /* Pods-CFB-umbrella.h */,
+				BB0D8B268455F4354B6DDE4473D6AC94 /* Pods-CFB.debug.xcconfig */,
+				E94C158487395BD474F50EA3AB037FA1 /* Pods-CFB.release.xcconfig */,
+			);
+			name = "Pods-CFB";
+			path = "Target Support Files/Pods-CFB";
+			sourceTree = "<group>";
+		};
+		27F9CE6654EC5749C920760D08970DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF71A7215F08BF1EB12A01B8A6506E9 /* Cartography.framework */,
+				FFD88BA5881B1ABC1E31FBED6E68452B /* Nuke.framework */,
+				B4A29A3EAE7C7A68F3722ABEDDDA6017 /* Pods_CFB.framework */,
+				9CB0FF85AC54C6B523BBD8BA380509D6 /* UIColor_FlatColors.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34740CB82183FFA56E164555F85BB49B /* Nuke */ = {
+			isa = PBXGroup;
+			children = (
+				27A4880127C90069BB98F445EC8E6406 /* Cache.swift */,
+				CA0DDCDFCD0408FE914A38E1E86D7279 /* CancellationToken.swift */,
+				3EB0DA30FC09DE8A79EDEF3907296CF4 /* DataDecoder.swift */,
+				19AFB92F30DD372E9503553298DFCD6E /* DataLoader.swift */,
+				DFFD7287E79EBA4993EE66444FAADEE7 /* Internal.swift */,
+				FE989894847162A8376E505223EA038A /* Loader.swift */,
+				5EE7F2A5B68D2E165C2402A4B5B37713 /* Manager.swift */,
+				8475AE9F36BF3AA7A4EC97E77AE2DA36 /* Nuke.swift */,
+				551A92209B284132C5C43F43162E9266 /* Preheater.swift */,
+				FFF6C63DD1279B084FD9E137FFDA015E /* Processor.swift */,
+				40DDB4883BF9EB01D1A93FCCEA1DEC34 /* Request.swift */,
+				A28C16DA87E1884F8D3D20A9CC89A67A /* Support Files */,
+			);
+			name = Nuke;
+			path = Nuke;
+			sourceTree = "<group>";
+		};
+		41B790EDDBC3B6C60B211AA2186FBCD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5C01E7C32EBD4B0C486E3DB9E6DC7B /* Cartography.modulemap */,
+				1B05AD4A43BB489483DDE0A9419EBC99 /* Cartography.xcconfig */,
+				68EB5B595DEE1D63A8ACBB55D4799A3C /* Cartography-dummy.m */,
+				FE48EF6C48AC20CBBF80A205E68E5FCC /* Cartography-prefix.pch */,
+				96C20FA555D36F6248CCC0DECDEBF3E2 /* Cartography-umbrella.h */,
+				D5DA380481FD6E099ED8C2982BF6EFDE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+		4415D981C147D09C96C33BF5B6D54D1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B95B6F0253EA220415410E1CF95EFFF /* Pods-CFB */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0350904BC7844669F27F370A497A5410 /* Pods */,
+				27F9CE6654EC5749C920760D08970DAB /* Products */,
+				4415D981C147D09C96C33BF5B6D54D1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A28C16DA87E1884F8D3D20A9CC89A67A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				007842AA2EE9493B2BEED65CBCF0C397 /* Info.plist */,
+				78FC98B1D6ADB981142FB60EB6D7810D /* Nuke.modulemap */,
+				DB695CF83BC1FFB16AD1E13304775C93 /* Nuke.xcconfig */,
+				C87363EEF3397497F4B6FE38AD61310F /* Nuke-dummy.m */,
+				6CCA4BB4AE28545CB3C767BE49C7D45F /* Nuke-prefix.pch */,
+				86ED75BCDBE7185AA5825B1712A38AA3 /* Nuke-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nuke";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF722B9E6835E5312230772963CB8C56 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				786C2DDD28E9EE2D0288EAED37DA4E9D /* Align.swift */,
+				31F1B985264A3D35CF54BF8D7F406035 /* AutoresizingMaskLayoutProxy.swift */,
+				D43983995B7BEF0BF30BBD068CB514E1 /* Coefficients.swift */,
+				C778422E456EB56C1119F33F65878F3A /* Compound.swift */,
+				3FA96A9D2EFD650D586428835B9B5B2C /* Constrain.swift */,
+				A3654F396AED178040E42178A8A19766 /* Constraint.swift */,
+				36446ACA361D17B752CDF7DF35779D6B /* ConstraintGroup.swift */,
+				A0E7371C8CBD73E96F411759CE33501D /* Context.swift */,
+				1306C29E73B472819EA7ED138F6DF634 /* Dimension.swift */,
+				F45482EAB70F657D2380317625596902 /* Distribute.swift */,
+				496B4B84E96850DFE2853B33CA18DBB8 /* Edge.swift */,
+				6BBAE7354EF1CF8C5F2FB3E766C3F7AC /* Edges.swift */,
+				8DE165FE781FC660496DC11F36E277B6 /* Expression.swift */,
+				5D6B0ADA402E51F16EFD6DC03E4156EE /* Extensions.swift */,
+				39AA45CA14110DC8CC9B9F8F329B80F8 /* LayoutGuide.swift */,
+				E7F9E9B4643E0F6A47E82829A71B7145 /* LayoutGuideProxy.swift */,
+				86A0AC714D013D62D627888FFF61D999 /* LayoutItem.swift */,
+				90E215462D7198C50CA20B2647D6E1EE /* LayoutProxy.swift */,
+				09E7E3A08D70903F15549F92F91AF047 /* LayoutProxy+TypeErasure.swift */,
+				A5A2D9F77E02AD98D3C187FA0B3F9CE1 /* LayoutSupport.swift */,
+				CD7C2C6581D61CB7E45140B3FDB39375 /* LayoutSupportProxy.swift */,
+				C8EAE756D8D6A1543F3F68F21E27A344 /* Point.swift */,
+				79E817B5281C83E394C4D07FE59E0C95 /* Priority.swift */,
+				D59D0069CDDBD647B5AF861A36E696E5 /* Property.swift */,
+				EC088BECB94405173C6DEAB55EF7C743 /* Size.swift */,
+				720069E0DD26006EFE4E9D6DC3AD6F34 /* View.swift */,
+				3D96775B3041DDBD6109822222046C22 /* ViewProxy.swift */,
+				41B790EDDBC3B6C60B211AA2186FBCD8 /* Support Files */,
+			);
+			name = Cartography;
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A130C31088F773695EAC5B399CC2BDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB65A37A114C1596590335552BA1740 /* Pods-CFB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5DAC2FD9943024EE28964E6DA3BD5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9C7F0EA8A1BFFEF397BC6B2A939B22 /* UIColor+FlatColors-umbrella.h in Headers */,
+				DE0651A2FBC5044AF06FB614BE52C03A /* UIColor+FlatColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7909E5BB787E89429A35A7198AC199 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E120762193FF2E9A3C4790D56AD940 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB364D0D1EEA011ACBEA69D11A18EAFC /* Nuke-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */,
+				66F11910B4682C55BD5811F333E55F89 /* Frameworks */,
+				3B7909E5BB787E89429A35A7198AC199 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 1BF71A7215F08BF1EB12A01B8A6506E9 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EB416A6476448A47C74341EF3FFB686 /* Nuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38F53982A28722A2ABA14392FF55F9E /* Build configuration list for PBXNativeTarget "Nuke" */;
+			buildPhases = (
+				C6739281B7E40C6BF323FECDABC0E632 /* Sources */,
+				6CAE566164063D9A7C119C045CF8B951 /* Frameworks */,
+				91E120762193FF2E9A3C4790D56AD940 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nuke;
+			productName = Nuke;
+			productReference = FFD88BA5881B1ABC1E31FBED6E68452B /* Nuke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CE7F20F42FFDF25FBDFE6FCC8AAACBA /* Pods-CFB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930551D1998FA431A5D371E286559DF4 /* Build configuration list for PBXNativeTarget "Pods-CFB" */;
+			buildPhases = (
+				511A4E026D449471A92672320CD323EB /* Sources */,
+				013A836CE9707723E803CED17A681477 /* Frameworks */,
+				2A130C31088F773695EAC5B399CC2BDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62C62FA4AF38F2AC214BE29534733016 /* PBXTargetDependency */,
+				3A298C282338B18AEF645E42B1DD515A /* PBXTargetDependency */,
+				B9CA53BBA47BCDBD5AEBB351BFEFB2A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CFB";
+			productName = "Pods-CFB";
+			productReference = B4A29A3EAE7C7A68F3722ABEDDDA6017 /* Pods_CFB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2C43022B5ABCAC4A05992565A4CF24B /* UIColor+FlatColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204C611AA1DAE37986E5C3A1FC8913AD /* Build configuration list for PBXNativeTarget "UIColor+FlatColors" */;
+			buildPhases = (
+				27BD2E3713F895E4D874F677B857CB0A /* Sources */,
+				A1AE480CA16FCACF2C9B8EB1A519DBD0 /* Frameworks */,
+				2A5DAC2FD9943024EE28964E6DA3BD5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+FlatColors";
+			productName = "UIColor+FlatColors";
+			productReference = 9CB0FF85AC54C6B523BBD8BA380509D6 /* UIColor_FlatColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27F9CE6654EC5749C920760D08970DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */,
+				4EB416A6476448A47C74341EF3FFB686 /* Nuke */,
+				9CE7F20F42FFDF25FBDFE6FCC8AAACBA /* Pods-CFB */,
+				A2C43022B5ABCAC4A05992565A4CF24B /* UIColor+FlatColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BD2E3713F895E4D874F677B857CB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3420193C65CFD85CD659C209EC2F535 /* UIColor+FlatColors-dummy.m in Sources */,
+				0651BB681660188DC86A68D105F0D9ED /* UIColor+FlatColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */,
+				869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */,
+				1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */,
+				33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */,
+				DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */,
+				0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */,
+				F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */,
+				551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */,
+				6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */,
+				B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */,
+				078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */,
+				94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */,
+				75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */,
+				9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */,
+				E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */,
+				64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */,
+				27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */,
+				BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */,
+				033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */,
+				6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */,
+				9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */,
+				E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */,
+				44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */,
+				F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */,
+				370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */,
+				26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */,
+				7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */,
+				52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511A4E026D449471A92672320CD323EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA94F344530DED6B3C4EB9EE3F6814CF /* Pods-CFB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6739281B7E40C6BF323FECDABC0E632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D9D96AAD8883BCDF093E46E8CBD666 /* Cache.swift in Sources */,
+				BB0F76670E8F70F44F27ECD0CCFB017B /* CancellationToken.swift in Sources */,
+				BC8A7F3183EE634556A828F8484121EE /* DataDecoder.swift in Sources */,
+				F38A6FFE6722E8368DF2A6242268DA59 /* DataLoader.swift in Sources */,
+				4D3B86571236307E685246AF30674404 /* Internal.swift in Sources */,
+				012BD1BDAA840DF0F61D9D43363DB4F2 /* Loader.swift in Sources */,
+				B49543F235F4BEDD36A0A789F079AF52 /* Manager.swift in Sources */,
+				F2C4D00A1F2F2BF5403B2F1632BFD1BA /* Nuke-dummy.m in Sources */,
+				253CD413EF8A80C6EF07F9BBD68CC051 /* Nuke.swift in Sources */,
+				EF4410D8720AAA7E905A4CA4DAE005AA /* Preheater.swift in Sources */,
+				66EB1E66385876B50FE808616D05B8D5 /* Processor.swift in Sources */,
+				3CFAD5358DA51354DDB900075FEEF062 /* Request.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A298C282338B18AEF645E42B1DD515A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nuke;
+			target = 4EB416A6476448A47C74341EF3FFB686 /* Nuke */;
+			targetProxy = CB8544CCE71B5D1FA85604B3A35DBEC8 /* PBXContainerItemProxy */;
+		};
+		62C62FA4AF38F2AC214BE29534733016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = 05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */;
+			targetProxy = 1F094863D03FF6B8F738CD2152BEE133 /* PBXContainerItemProxy */;
+		};
+		B9CA53BBA47BCDBD5AEBB351BFEFB2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+FlatColors";
+			target = A2C43022B5ABCAC4A05992565A4CF24B /* UIColor+FlatColors */;
+			targetProxy = A905E7CE5574D2A0E54E30B7422E7449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07B5A12703A6AB323D323075C90D32D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94C158487395BD474F50EA3AB037FA1 /* Pods-CFB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CFB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CFB/Pods-CFB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CFB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F7115F4233BF708263DD640608330FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B05AD4A43BB489483DDE0A9419EBC99 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		432AE583FE3CD8E1271410C7651CDD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D0DFC88CE68B8103A6EC82B3AEC629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0D8B268455F4354B6DDE4473D6AC94 /* Pods-CFB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CFB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CFB/Pods-CFB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CFB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75CC402179505BA337B07F61D1C8DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F40684C656A48C7CE86A42D6DF53EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113E7C686A6CF2753650AF5BDF51FA59 /* UIColor+FlatColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+FlatColors/UIColor+FlatColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+FlatColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+FlatColors/UIColor+FlatColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_FlatColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D24B9AE4CDB1CADBDBFF3D68D6C74739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB695CF83BC1FFB16AD1E13304775C93 /* Nuke.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nuke/Nuke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nuke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nuke/Nuke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nuke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA925270E92727DB349FCF694C888C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B05AD4A43BB489483DDE0A9419EBC99 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE75B0D7D270AD780B13349A0E2ABB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113E7C686A6CF2753650AF5BDF51FA59 /* UIColor+FlatColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+FlatColors/UIColor+FlatColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+FlatColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+FlatColors/UIColor+FlatColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_FlatColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A7EC43B255FB5C64A0C1C909F52F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB695CF83BC1FFB16AD1E13304775C93 /* Nuke.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nuke/Nuke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nuke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nuke/Nuke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nuke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204C611AA1DAE37986E5C3A1FC8913AD /* Build configuration list for PBXNativeTarget "UIColor+FlatColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F40684C656A48C7CE86A42D6DF53EBA /* Debug */,
+				EE75B0D7D270AD780B13349A0E2ABB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CC402179505BA337B07F61D1C8DDCD /* Debug */,
+				432AE583FE3CD8E1271410C7651CDD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930551D1998FA431A5D371E286559DF4 /* Build configuration list for PBXNativeTarget "Pods-CFB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D0DFC88CE68B8103A6EC82B3AEC629 /* Debug */,
+				07B5A12703A6AB323D323075C90D32D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7115F4233BF708263DD640608330FC /* Debug */,
+				EA925270E92727DB349FCF694C888C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38F53982A28722A2ABA14392FF55F9E /* Build configuration list for PBXNativeTarget "Nuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A7EC43B255FB5C64A0C1C909F52F7A /* Debug */,
+				D24B9AE4CDB1CADBDBFF3D68D6C74739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

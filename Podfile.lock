@@ -1,0 +1,18 @@
+PODS:
+  - Cartography (3.0.1)
+  - Nuke (6.0)
+  - UIColor+FlatColors (0.0.2)
+
+DEPENDENCIES:
+  - Cartography
+  - Nuke
+  - UIColor+FlatColors
+
+SPEC CHECKSUMS:
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  Nuke: d83812262734dad51e3c498cb1c4f7923f2b78c6
+  UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
+
+PODFILE CHECKSUM: 2dad87149e73dc5cd8695060fa9b093bb36ba498
+
+COCOAPODS: 1.1.1
